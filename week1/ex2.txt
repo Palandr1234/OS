@@ -1,0 +1,91 @@
+    1  bash ~/Загрузки/Anaconda3-2020.02-Linux-x86_64.sh
+    2  snap changes
+    3  sudo snao abort 3
+    4  sudo snap abort 3
+    5  source ~/anaconda3/bin/activate
+    6  conda init
+    7  source `/anconda3/bin/activate
+    8  conda init
+    9  exit
+   10  source ~/anaconda3/bin/activate
+   11  conda init
+   12  bash ~/Загрузки/Anaconda3-2020.02-Linux-x86_64.sh
+   13  u
+   14  jupyter notebook
+   15  sudo apt install python3-pip
+   16  pip install cplex
+   17  pip install docplex
+   18  pip install faker
+   19  whoami
+   20  hostname
+   21  man whoami
+   22  less
+   23  Hello 2>error.log
+   24  ls
+   25  ls > list.txt
+   26  pwd
+   27  ls
+   28  cd desktop
+   29  cd 'Рабочий стол'
+   30  ld
+   31  ls
+   32  head -n 3 < list.txt
+   33  ls
+   34  head -n 3 < list.txt
+   35  tail -n 3 < list.txt
+   36  ls | sort -r | tail -n 3
+   37  ls
+   38  pwd
+   39  cd 'Рабочий стол'
+   40  cd OS
+   41  mkdir week1
+   42  cd  ..
+   43  cd ..
+   44  cd 'Рабочий стол'
+   45  cd..
+   46  cd ..
+   47  ls
+   48  rm error.log
+   49  ls
+   50  cd 'Рабочий стол'
+   51  cd OS
+   52  cd week1
+   53  cd ..
+   54  mv /home/andrey/list.txt /home/andrey/'Рабочий стол'
+   55  gedit
+   56  gedit  file.txt
+   57  cd 'Рабочий стол'
+   58  gedit &
+   59  jobs
+   60  cd ..
+   61  mkdir ~/week1
+   62  cd ~/week1
+   63  cd ..
+   64  ls
+   65  cd ~/home
+   66  cd ..
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd usr
+   71  ls
+   72  cd bin
+   73  ls
+   74  cd /home/andrey
+   75  ls /usr/bin
+   76  ls usr/bin | grep gcc
+   77  ls usr/bin
+   78  ls
+   79  ls /usr/bin | grep gcc
+   80  cd ~/week1
+   81  ls /usr/bin | grep gcc | sort -r
+   82  ls /usr/bin | grep gcc | sort -r | ~/week1/ex1.txt
+   83  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   84  pwd
+   85  cd ..
+   86  mkdir aaaaa
+   87  cd aaaaa
+   88  cd ..
+   89  history > ex2.txt
+   90  cd week1
+   91  history > ex2.txt
