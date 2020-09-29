@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   5399	    632	      8	   6039	   1797	./innopolis/os/week6/ex1
