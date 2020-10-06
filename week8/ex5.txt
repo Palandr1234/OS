@@ -1,0 +1,6 @@
+The difference between the physical adress and the 
+virtual adress is that physical really eixsts in 
+memory, whereas virtual does not, it exists only 
+logically, it is created by CPU only for process 
+usage. Virtual memory can use much more virtual 
+adressess than there are physical adresses.

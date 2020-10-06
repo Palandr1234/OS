@@ -1,0 +1,5 @@
+Since each page is 8 KiB, the offset is 13 bit 
+(2^13 = 8096). Since virtual address is 16 bit,
+the virtual address number is (16-13) = 3 bit.
+Therefore, the number of entries is 2^3 = 8
+Answer: 8 entries
