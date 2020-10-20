@@ -1,0 +1,13 @@
+-rw-r--r-- 1 andrey andrey 0 окт 20 15:07 _ex3.txt
+-rw-r--r-- 1 andrey andrey 0 окт 20 15:07 _ex3.txt
+-rwxr--rwx 1 andrey andrey 0 окт 20 15:07 _ex3.txt
+-rwxrwxrwx 1 andrey andrey 0 окт 20 15:07 _ex3.txt
+
+The first line means the results before any change
+
+1) What does 660 mean for ex3.txt?
+Each of these numbers is the number in octal system and means r, w, x bits correspondingly. The first number corresponds to the user, the seocnd one - to the group, and the third one - to the others. Therefore, 660 for ex3.txt means the following: for the user and for the group read and write is allowed (6 is 110 in octal) and no permissions for the others (0 = 000)
+2) What does 775 means for ex3.txt?
+Analogically to p.1, 775 means all permissions is granted to the user and the group (7 = 111 in the octal system) and read and execute is allowed to others (5 = 101 in octal)
+3) What does 777 means for ex3.txt?
+Analogically to p.1, 777 means all permissions is granted to the user, the group and others (7 = 111 in the octal system)

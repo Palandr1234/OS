@@ -1,0 +1,2 @@
+/home/andrey/Рабочий стол/OS/week1/file.txt
+/home/andrey/Рабочий стол/OS/week10/_ex2.txt

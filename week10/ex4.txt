@@ -1,0 +1,1 @@
+files with the same i-node number: file1 link1
