@@ -1,0 +1,3 @@
+The difference between these two programs is the following: 
+1) in the first program, string "Hello" does not contain "\n" so it remains in the buffer; after the fork() the buffer is copied; after the printf("\n") both buffers get "\n" and we print strings from both buffers
+2) whereas in the second program, string "Hello\n" contains "\n" so it first is printed and then is copied. That's the reason why after fork() only two "\n"s are printed
