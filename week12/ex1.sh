@@ -1,0 +1,1 @@
+head -c 20 /dev/random > ex1.txt

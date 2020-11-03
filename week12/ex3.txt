@@ -1,0 +1,27 @@
+BUF_SIZE=32, without O_SYNC:
+real    0m0,005s
+user    0m0,003s
+sys     0m0,002s
+with O_SYNC:
+real    0m0,192s
+user    0m0,004s
+sys     0m0,022s
+BUF_SIZE=128, without O_SYNC:
+real    0m0,004s
+user    0m0,000s
+sys     0m0,004s
+with O_SYNC:
+real    0m0,059s
+user    0m0,000s
+sys     0m0,011s
+BUF_SIZE=256, without O_SYNC:
+real    0m0,001s
+user    0m0,001s
+sys     0m0,000s
+with O_SYNC:
+real    0m0,036s
+user    0m0,000s
+sys     0m0,008s
+
+When the size of the buffer increases, the less context switcheshappens, fewer times we need to copy the information from ex3_input.txt to ex3_output.txt and so on. It leads to the increasing of speed of the operation.
+When we include the O_SYNC flag, we need to spend more time for synchrozination, so the speed of the operation decreases.
