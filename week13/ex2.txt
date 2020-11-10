@@ -1,0 +1,6 @@
+1) It is better to use the deadlock prevention when we are able to break one of the conditions for the deadlocks and the performance is less import than 
+the stability of the system (if we don't want to have deadlocks and to recover them)
+2) It is better to use the deadlock avoidance when we care about performance but still do not want to have deadlocks, when we know about future requests of 
+resources by processes and their releases of resources and when we are in a safe state
+3) It is better to use the deadlock recovery when we care about the performance, when we do not about future requests of processes and when we are already in unsafe 
+state
